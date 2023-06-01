@@ -7,7 +7,7 @@ A globálisan preemptív, statikus prioritásos ütemező az alábbi ütemezési
 1. magas prioritású szint (prioritás = 1) RR ütemező, időszelet: 2
 2. alacsony prioritású szint (prioritás = 0) SRTF ütemező
 
-##Bemenet (standard input, stdin)
+## Bemenet (standard input, stdin)
 Soronként egy (max. 10) taszk adatai. Egy sor felépítése (vesszővel elválasztva):
 
 - a taszk betűjele (A, B, C...)
@@ -23,7 +23,7 @@ C,1,5,2
 D,1,10,1
 A bemenet végét EOF jelzi (előtte soremelés biztosan van, és üres sor is előfordulhat).
 
-##Kimenet (standard output, stdout)
+## Kimenet (standard output, stdout)
 A kimenet első sorában a taszkok futási sorrendje betűjeleikkel (csak betűk, szóközök nélkül).
 A második sorban a teljes várakozási idő taszkonként, érkezésük (nem feltétlenül abc-) sorrendjében, az alábbi formában (vesszővel elválasztva, szóközök nélkül):
 
