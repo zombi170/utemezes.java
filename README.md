@@ -18,9 +18,13 @@ Soronként egy (max. 10) taszk adatai. Egy sor felépítése (vesszővel elvála
 Példa:
 
 A,0,0,6
+
 B,0,1,5
+
 C,1,5,2
+
 D,1,10,1
+
 A bemenet végét EOF jelzi (előtte soremelés biztosan van, és üres sor is előfordulhat).
 
 ## Kimenet (standard output, stdout)
@@ -32,4 +36,5 @@ A második sorban a teljes várakozási idő taszkonként, érkezésük (nem fel
 Példa (a fenti bemenetre adott válasz):
 
 ACABDB
+
 A:2,B:8,C:0,D:0
