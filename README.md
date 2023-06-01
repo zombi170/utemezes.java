@@ -16,15 +16,12 @@ Soronként egy (max. 10) taszk adatai. Egy sor felépítése (vesszővel elvála
 - a taszk CPU-löketideje (egész szám >= 1)
 
 Példa:
-
+```java kimenet
 A,0,0,6
-
 B,0,1,5
-
 C,1,5,2
-
 D,1,10,1
-
+```
 A bemenet végét EOF jelzi (előtte soremelés biztosan van, és üres sor is előfordulhat).
 
 ## Kimenet (standard output, stdout)
