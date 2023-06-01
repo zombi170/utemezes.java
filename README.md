@@ -16,7 +16,7 @@ Soronként egy (max. 10) taszk adatai. Egy sor felépítése (vesszővel elvála
 - a taszk CPU-löketideje (egész szám >= 1)
 
 Példa:
-```java bemenet
+```
 A,0,0,6
 B,0,1,5
 C,1,5,2
@@ -31,7 +31,7 @@ A második sorban a teljes várakozási idő taszkonként, érkezésük (nem fel
 1. taszk betűjel:várakozási idő,2. betűjel:várakozási idő, ...
 
 Példa (a fenti bemenetre adott válasz):
-```java kimenet
+```
 ACABDB
 A:2,B:8,C:0,D:0
 ```
